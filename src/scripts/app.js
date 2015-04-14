@@ -20527,11 +20527,11 @@ var RecipeItemList = React.createClass({displayName: "RecipeItemList",
 React.createElement("div", {id: "recipeImage"}), 
 React.createElement("div", {id: "recipeContent"}, 
 React.createElement("h3", null, recipeName), 
-"Med ägggula, knaperstekt bacon och parmesan!", 
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit!", 
 
             React.createElement("br", null), 
             React.createElement("br", null), 
-            "700 kcal/portion"
+            "743 kcal/portion"
 )
 )
     

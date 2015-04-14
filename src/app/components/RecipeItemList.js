@@ -20,11 +20,11 @@ var RecipeItemList = React.createClass({
 <div id="recipeImage"></div>
 <div id="recipeContent">
 <h3>{recipeName}</h3>
-Med ägggula, knaperstekt bacon och parmesan!
+Lorem ipsum dolor sit amet, consectetur adipiscing elit!
 
             <br />
             <br />
-            700 kcal/portion
+            743 kcal/portion
 </div>
 </div>
     

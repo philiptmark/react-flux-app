@@ -12,7 +12,7 @@ header{
 	width: 100%;
 }
 
-headerContent{
+#headerContent{
 	display: inline-block;
 	padding-left: 10%;
 	padding-right: 10%;
@@ -30,12 +30,12 @@ header h1{
 	color: #628363;
 }
 
-headerMenu{
+#headerMenu{
 	display: inline-block;
 	color: #557156;
 }
 
-headerProfileImage{
+#headerProfileImage{
 	display: inline-block;
 	width: 40px;
 	height: 40px;
@@ -233,20 +233,20 @@ footer{
 	border-top: 1px solid #6a8d6b;
 }
 
-footerMenu{
+#footerMenu{
 	display: block;
 	background-color: #93ca95;
 	padding: 25px;
 }
 
-footerMenuItem{
+#footerMenuItem{
 	display: inline-block;
 	width: 33%;
 	color: #6a8d6b;
 
 }
 
-footerMenuItem h3{
+#footerMenuItem h3{
 	color: #628363;
 	margin-bottom: 5px;
 }
