@@ -1,0 +1,268 @@
+body{
+	background-color: #eaeaea;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*-------------------
+Header
+--------------------*/
+header{
+	background-color: #7fb181;
+	width: 100%;
+}
+
+headerContent{
+	display: inline-block;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+	width: 100%;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+header h1{
+	display: inline-block;
+	width: 80%;
+	margin: 0px;
+	color: #628363;
+}
+
+headerMenu{
+	display: inline-block;
+	color: #557156;
+}
+
+headerProfileImage{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #fff;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	margin-left: 25px;
+}
+
+/*-------------------
+Container for all content
+--------------------*/
+
+#contentContainer{
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	display: block;
+}
+
+/*-------------------
+The searchbar
+--------------------*/
+#searchBarContainer{
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	border-bottom: 1px solid #c9c9c9;
+}
+
+#searchBar{
+	display: inline-block;
+	width: 40%;
+}
+
+#searchBox{
+	display: inline-block;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+}
+
+#searchBar input{
+	background: transparent;
+	border: none;
+	width: 100%;
+	color: #bead99;
+	font-size: 16px;
+	margin-top: 5px 0px 5px 0px;
+}
+
+/*-------------------
+MainContent
+--------------------*/
+#mainContent{
+	display: block;
+	margin-top: 2%;
+
+}
+
+/*-------------------
+Left main content
+--------------------*/
+
+#leftMainContent{
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+}
+
+#filterHeader{
+	
+}
+
+#filterHeader h2{
+	margin: 0px;
+	color: #767676;
+}
+
+
+/*-------------------
+Right main content
+--------------------*/
+#rightMainContent{
+	display: inline-block;
+	vertical-align: top;
+	width: 18%;
+}
+
+#rightMainContentBox{
+	display: block;
+	margin-bottom: 5px;
+	background-color: #fff;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+
+	}
+
+#rightMainContentHeader{
+	display: block;
+	width: 100%;
+	background-color: #7fb181;
+	padding: 5px 0px 5px 5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+
+}
+
+#rightMainContentHeader h3{
+
+	margin: 0px;
+}
+
+#rightMainContentText{
+	display: block;
+	padding: 5px;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*-------------------
+Recipe list
+--------------------*/
+#recipeList{
+	vertical-align: top;
+	display: inline-block; 
+	width: 60%;
+}
+
+#recipeItem{
+	background-color: #ffffff;
+	float: left;
+	padding-bottom: 1%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	width: 30%;
+	border: 1px solid #b6b6b6;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#recipeItem:nth-child(3n+3){
+	margin-right: 0px;
+}
+
+#recipeImage{
+	width: 100%;
+	height: 140px;
+	display: flex;
+    background-image: url(../images/pasta.jpg); 
+    overflow: hidden;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#recipeImageChicken{
+	width: 100%;
+	height: 140px;
+	display: flex;
+    background-image: url(../images/BaconWrappedChicken.jpg); 
+    overflow: hidden;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+#recipeContent{
+	display: block;
+	margin-top: 5px;
+
+}
+
+#recipeContent h3{
+	margin: 0px;
+	font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+}
+
+footer{
+	margin-top: 60px;
+	background-color: #7fb181;
+	width: 100%;
+	border-top: 1px solid #6a8d6b;
+}
+
+footerMenu{
+	display: block;
+	background-color: #93ca95;
+	padding: 25px;
+}
+
+footerMenuItem{
+	display: inline-block;
+	width: 33%;
+	color: #6a8d6b;
+
+}
+
+footerMenuItem h3{
+	color: #628363;
+	margin-bottom: 5px;
+}
+
+footer h5{
+	display: inline-block;
+	width: 80%;
+	margin: 0px;
+	color: #628363;
+}
+
+
+
+
+
+
+
+
+
